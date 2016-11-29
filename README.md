@@ -1,6 +1,4 @@
-# wcompressor
-
-WCompressor v1.0
+#WCompressor v1.0
 ----------------------------------
 Aplicación creada con lazarus usada para comprimir (aplicando strip.exe y upx.exe) archivos ejecutables finales,
 logrando reducir el mismo en un 70-80% de su pedo original.
