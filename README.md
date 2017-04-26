@@ -11,6 +11,7 @@ logrando reducir el mismo en un 70-80% de su peso original.
 4. Esperamos que todo salga bien y tendremos dispobinible el nuevo .exe reducido. 
 
 >Para más info Visite: www.webscom.net
+
 >Foro: http://www.webscom.com.ar/foros?view=thread&id=11
 
 ----------------------------------
