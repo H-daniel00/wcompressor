@@ -1,4 +1,4 @@
-## WCompressor v1.0
+## WCompressor v1.1
 ----------------------------------
 Aplicación creada con lazarus usada para comprimir (aplicando strip.exe y upx.exe) archivos ejecutables finales,
 logrando reducir el mismo en un 70-80% de su peso original.
@@ -10,15 +10,21 @@ logrando reducir el mismo en un 70-80% de su peso original.
 3. En este paso se habilitará el boton "comprimir" pueden presionarlo y comienza el proceso.
 4. Esperamos que todo salga bien y tendremos dispobinible el nuevo .exe reducido. 
 
-### Cambios versión 1.1
-- Optimizado el codigo de compresión.
+### Cambios versión 1.1 (22/05/17)
+- Optimizado el codigo de compresión. 
 
 >Para más info Visite: www.webscom.net
 >Foro: http://www.webscom.com.ar/foros?view=thread&id=11
 
+----------------------------------
+Herramientas:
+strip.exe es usado de la instalación de lazarus.
+upx.exe (the Ultimate Packer for eXecutables)
+Web: https://upx.github.io/
 ----------------------------------
 ###### Basado en SimpleCompressor by Tim 'WibblyTim' Cogher
 ###### (info@wibblytim.co.uk) (General Public License version 3)
 ----------------------------------
 ###### Icono del sistema: Delta icons
 ###### Author: Aroche (http://aroche.deviantart.com/)
+
