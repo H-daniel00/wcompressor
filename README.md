@@ -11,8 +11,8 @@ logrando reducir el mismo en un 70-80% de su peso original.
 ###### Cambios versión 1.1 (22/05/17)
 - Optimizado el codigo de compresión. 
 
-Para más info Visite: www.webscom.net
-Foro: http://www.webscom.com.ar/foros?view=thread&id=11
+Para más info Visite: www.webscom.net  
+Foro: [Sobre WCompressor] (http://www.webscom.com.ar/foros?view=thread&id=11)
 
 #### Herramientas:
 * strip.exe es usado de la instalación de lazarus.
