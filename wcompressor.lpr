@@ -13,7 +13,7 @@ uses
 {$R *.res}
 
 begin
-  Application.Title:='WCompressor v1.0 by webscom.com.ar';
+  Application.Title:='WCompressor v1.1 by webscom.com.ar';
   RequireDerivedFormResource:=True;
   Application.Initialize;
   Application.CreateForm(Tf_main, f_main);

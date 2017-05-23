@@ -5469,7 +5469,7 @@ object f_about: Tf_about
     0F00FC001F00FFF1FF00
   }
   Position = poMainFormCenter
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.4.0'
   object textos: TMemo
     Left = 8
     Height = 240
@@ -5491,8 +5491,8 @@ object f_about: Tf_about
       '3. En este paso se habilitará el boton "comprimir" pueden presionarlo y comienza el proceso.'
       '4. Esperamos que todo salga bien y tendremos dispobinible el nuevo .exe reducido. '
       ''
-      'Para más info Visite: www.webscom.com.ar'
-      'Foro: proximamente...'
+      'Para más info Visite: www.webscom.net'
+      'Foro: www.webscom.net/foros'
       '----------------------------------'
       'Basado en SimpleCompressor by Tim ''WibblyTim'' Cogher '
       '(info@wibblytim.co.uk) (General Public License version 3)'

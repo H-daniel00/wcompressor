@@ -94,7 +94,9 @@ Begin
     cmd:= 'strip --verbose --strip-all "'+nexe+'"';
     Memo2.Lines.Add('Proceso 1 strip.exe');
     Memo2.Lines.Add(cmd);                          {muestro comando}
-    aProcess.CommandLine:= cmd;
+    aProcess.Executable:= 'strip';
+    aProcess.Parameters.Text:= ' --verbose --strip-all "'+nexe+'"';
+    //aProcess.CommandLine:= cmd;
     aProcess.Options:= aProcess.Options + [poWaitOnExit, poNoConsole, poUsePipes];
     Memo2.Lines.Add('Ejecutando ... ');
     aProcess.Execute;
@@ -114,7 +116,9 @@ Begin
     cmd:= 'upx -9 -qv "'+nexe+'"';
     Memo2.Lines.Add('Proceso 2 upx.exe (externo)');
     Memo2.Lines.Add(cmd);                          {muestro comando}
-    aProcess.CommandLine:= cmd;
+    aProcess.Executable:= 'upx';
+    aProcess.Parameters.Text:= ' -9 -qv "'+nexe+'"';
+    //aProcess.CommandLine:= cmd;
     aProcess.Options:= aProcess.Options + [poWaitOnExit, poNoConsole, poUsePipes];
     Memo2.Lines.Add('Ejecutando ... ');
     aProcess.Execute;
@@ -136,14 +140,14 @@ Begin
   Memo2.Lines.Add('La tarea se ha completado!');
   Memo2.Lines.Add('Tamaño FINAL del Ejecutable: '+FloatToStrF(fin,ffNumber,6,2)+'MB');
   Memo2.Lines.Add('--------------------------');
-  Memo2.Lines.Add('Visita: www.webscom.com.ar');
+  Memo2.Lines.Add('Visita: www.webscom.net');
   b_comp.Enabled:= false;
   // -- FIN -- //
 end;
 
 procedure Tf_main.weblinkClick(Sender: TObject);
 begin
-   OpenURL('http://www.webscom.com.ar');
+   OpenURL('http://www.webscom.net');
 end;
 
 procedure Tf_main.b_infoClick(Sender: TObject);

@@ -5,7 +5,7 @@ object f_main: Tf_main
   Width = 617
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'WCompressor v1.0 | www.webscom.com.ar | build 1116'
+  Caption = 'WCompressor v1.1 | www.webscom.net | build 0517'
   ClientHeight = 450
   ClientWidth = 617
   Color = 10538959
@@ -5469,7 +5469,7 @@ object f_main: Tf_main
     0F00FC001F00FFF1FF00
   }
   Position = poScreenCenter
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.4.0'
   object b_open: TBitBtn
     Left = 16
     Height = 32
@@ -5687,8 +5687,8 @@ object f_main: Tf_main
     Left = 254
     Height = 13
     Top = 430
-    Width = 109
-    Caption = 'www.webscom.com.ar'
+    Width = 92
+    Caption = 'www.webscom.net'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlue
     Font.Height = -11
