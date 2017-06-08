@@ -10,8 +10,7 @@ logrando reducir el mismo en un 70-80% de su peso original.
 
 ##### Cambios versión 1.1 (22/05/17)
 - Optimizado el codigo de compresión.
-##### Cambios versión 1.2
-----------------------------------
+##### Cambios versión 1.2 (08/06/17)
 - Cambios en diseño y codigo de compresión.
 
 Para más info Visite: www.webscom.net  
