@@ -1,4 +1,4 @@
-## WCompressor v1.1
+## WCompressor v1.2
 Aplicación creada con lazarus usada para comprimir (aplicando strip.exe y upx.exe) archivos ejecutables finales,
 logrando reducir el mismo en un 70-80% de su peso original.
 
@@ -9,7 +9,10 @@ logrando reducir el mismo en un 70-80% de su peso original.
 4. Esperamos que todo salga bien y tendremos dispobinible el nuevo .exe reducido. 
 
 ##### Cambios versión 1.1 (22/05/17)
-- Optimizado el codigo de compresión. 
+- Optimizado el codigo de compresión.
+##### Cambios versión 1.2
+----------------------------------
+- Cambios en diseño y codigo de compresión.
 
 Para más info Visite: www.webscom.net  
 Foro: [Sobre WCompressor](http://www.webscom.com.ar/foros?view=thread&id=11)
@@ -19,4 +22,6 @@ Foro: [Sobre WCompressor](http://www.webscom.com.ar/foros?view=thread&id=11)
 * upx.exe (the Ultimate Packer for eXecutables)
 * Web: https://upx.github.io/
 * Basado en SimpleCompressor by Tim 'WibblyTim' Cogher (info@wibblytim.co.uk) (General Public License version 3)
-* Icono del sistema: Delta icons - Author: Aroche (http://aroche.deviantart.com/)
+* Icono Usados: 
+  - icons8: https://es.icons8.com
+  - Steadysets Icons: https://fribly.com/2013/02/13/steadysets-icons/
