@@ -13,7 +13,6 @@ type
   { Tf_main }
 
   Tf_main = class(TForm)
-    aProcess: TProcess;
     b_open: TBitBtn;
     b_comp: TBitBtn;
     b_info: TBitBtn;
@@ -87,6 +86,7 @@ procedure Tf_main.b_compClick(Sender: TObject);
 var
   stripped, final: integer;
   fin: extended; {real super grande 10bytes}
+  aProcess: TProcess;
 Begin
   // 1er proceso con strip.exe ------------------------------------------
   try
